@@ -24,7 +24,7 @@
 			<providers>
 				<pattern>
 					{
-					"serviceName": "CloudPSG"
+					"serviceName": "cloudpsg"
 					}
 				</pattern>
 			</providers>

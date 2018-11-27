@@ -1,0 +1,9 @@
+# image not found? login using "docker login --username=abc --password=abc https://registry.domain.de"
+services: 
+  pheonix-cloudpsg: 
+    container_name: pheonix-cloudpsg
+    image: "praveenit219/pheonix-cloudpsg:latest"
+    network_mode: host
+    ports: 
+      - "10803:10803"
+version: "3"
