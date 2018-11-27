@@ -1,0 +1,21 @@
+ zuul:
+  routes:
+    CustomerService:
+      path: /v1/customer/**
+      #url: http://localhost:8181
+      serviceId: CustomerService
+      stripPrefix: false
+    AccountsService:
+      path: /v1/accounts/**
+      #url: http://localhost:8181
+      serviceId: AccountsService
+      stripPrefix: false
+    DashBoardService:
+      path: /v1/dashboard/**
+      #url: http://localhost:10113
+      serviceId: DashboardService
+      stripPrefix: false
+    test:
+      path: /redirect/**
+      url: http://google.com
+      stripPrefix: false
